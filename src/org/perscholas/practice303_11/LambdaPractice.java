@@ -31,6 +31,8 @@ public class LambdaPractice {
 		System.out.println("********************************\nQuestion 6");
 		
 		// Question 6
+		/* Change your lambda expression to subtract the two numbers instead of adding them.
+		 */
 		atn = (x, y) -> x - y;
 		System.out.println(atn.add(120, 200));
 	}
